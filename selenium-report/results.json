@@ -1,0 +1,420 @@
+{
+  "timestamp": "2026-01-11T16:56:13.681Z",
+  "summary": {
+    "totalPassed": 34,
+    "totalFailed": 52,
+    "totalTests": 86
+  },
+  "browsers": [
+    {
+      "browser": "ie",
+      "passed": 0,
+      "failed": 43,
+      "results": [
+        {
+          "name": "Edit modal opens on button click",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10016ms"
+        },
+        {
+          "name": "Fields are pre-filled with task data",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10267ms"
+        },
+        {
+          "name": "Pre-fill with empty description",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10378ms"
+        },
+        {
+          "name": "Store task ID in modal dataset",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10040ms"
+        },
+        {
+          "name": "Update title successfully",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10236ms"
+        },
+        {
+          "name": "Update description successfully",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10305ms"
+        },
+        {
+          "name": "Update status successfully",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10216ms"
+        },
+        {
+          "name": "Update priority successfully",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10280ms"
+        },
+        {
+          "name": "Update due date successfully",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10263ms"
+        },
+        {
+          "name": "Update multiple fields at once",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10283ms"
+        },
+        {
+          "name": "Modal closes after successful update",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10158ms"
+        },
+        {
+          "name": "Refresh task list after update",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10091ms"
+        },
+        {
+          "name": "Alert shown on empty title",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10238ms"
+        },
+        {
+          "name": "Alert shown on empty due date",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10247ms"
+        },
+        {
+          "name": "No database update on validation fail",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10084ms"
+        },
+        {
+          "name": "Alert shown on whitespace-only title",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10394ms"
+        },
+        {
+          "name": "Modal closes on cancel button",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10114ms"
+        },
+        {
+          "name": "Modal closes on close (X) button",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10213ms"
+        },
+        {
+          "name": "Modal closes on outside click",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10209ms"
+        },
+        {
+          "name": "Modal closes on Escape key",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10345ms"
+        },
+        {
+          "name": "No changes applied on cancel",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10212ms"
+        },
+        {
+          "name": "Form resets on cancel",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10256ms"
+        },
+        {
+          "name": "Alert shown when task not found",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10358ms"
+        },
+        {
+          "name": "Alert when task deleted before submit",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10015ms"
+        },
+        {
+          "name": "Handle very long title (255 chars)",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10261ms"
+        },
+        {
+          "name": "Handle special characters in title",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10093ms"
+        },
+        {
+          "name": "Handle unicode in title",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10026ms"
+        },
+        {
+          "name": "Handle minimum date (1970-01-01)",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10031ms"
+        },
+        {
+          "name": "Handle maximum date (2099-12-31)",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10203ms"
+        },
+        {
+          "name": "Handle empty description update",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10348ms"
+        },
+        {
+          "name": "Handle single character title",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10127ms"
+        },
+        {
+          "name": "Test all status dropdown options",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10054ms"
+        },
+        {
+          "name": "Test all priority dropdown options",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10387ms"
+        },
+        {
+          "name": "Update first task in list",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10031ms"
+        },
+        {
+          "name": "Update middle task in list",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10176ms"
+        },
+        {
+          "name": "Preserve other tasks when updating one",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10047ms"
+        },
+        {
+          "name": "Maintain task count after update",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10138ms"
+        },
+        {
+          "name": "Preserve task ID after update",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10124ms"
+        },
+        {
+          "name": "Edit button is visible",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10159ms"
+        },
+        {
+          "name": "Modal has correct title",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10062ms"
+        },
+        {
+          "name": "Submit button has correct text",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10249ms"
+        },
+        {
+          "name": "Cancel button is present",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10184ms"
+        },
+        {
+          "name": "Required field indicators",
+          "status": "failed",
+          "error": "Waiting for element to be located By(css selector, .task-card)\nWait timed out after 10116ms"
+        }
+      ]
+    },
+    {
+      "browser": "edge-legacy",
+      "passed": 34,
+      "failed": 9,
+      "results": [
+        {
+          "name": "Edit modal opens on button click",
+          "status": "passed"
+        },
+        {
+          "name": "Fields are pre-filled with task data",
+          "status": "passed"
+        },
+        {
+          "name": "Pre-fill with empty description",
+          "status": "passed"
+        },
+        {
+          "name": "Store task ID in modal dataset",
+          "status": "passed"
+        },
+        {
+          "name": "Update title successfully",
+          "status": "passed"
+        },
+        {
+          "name": "Update description successfully",
+          "status": "passed"
+        },
+        {
+          "name": "Update status successfully",
+          "status": "passed"
+        },
+        {
+          "name": "Update priority successfully",
+          "status": "passed"
+        },
+        {
+          "name": "Update due date successfully",
+          "status": "failed",
+          "error": "Due date should be updated\n\u001b[32mactual\u001b[39m \u001b[31mexpected\u001b[39m\n\n\u001b[39m'\u001b[39m\u001b[32m6\u001b[39m\u001b[32m1\u001b[39m\u001b[39m2\u001b[39m\u001b[32m3\u001b[39m\u001b[32m1\u001b[39m\u001b[32m-\u001b[39m\u001b[39m0\u001b[39m\u001b[39m2\u001b[39m\u001b[31m6\u001b[39m\u001b[39m-\u001b[39m\u001b[31m1\u001b[39m\u001b[39m2\u001b[39m\u001b[32m0\u001b[39m\u001b[31m-\u001b[39m\u001b[31m3\u001b[39m\u001b[31m1\u001b[39m\u001b[39m'\u001b[39m\n"
+        },
+        {
+          "name": "Update multiple fields at once",
+          "status": "passed"
+        },
+        {
+          "name": "Modal closes after successful update",
+          "status": "passed"
+        },
+        {
+          "name": "Refresh task list after update",
+          "status": "passed"
+        },
+        {
+          "name": "Alert shown on empty title",
+          "status": "failed",
+          "error": "Alert should be displayed for empty title"
+        },
+        {
+          "name": "Alert shown on empty due date",
+          "status": "failed",
+          "error": "Alert should be displayed for empty due date"
+        },
+        {
+          "name": "No database update on validation fail",
+          "status": "passed"
+        },
+        {
+          "name": "Alert shown on whitespace-only title",
+          "status": "passed"
+        },
+        {
+          "name": "Modal closes on cancel button",
+          "status": "passed"
+        },
+        {
+          "name": "Modal closes on close (X) button",
+          "status": "failed",
+          "error": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#updateTaskModal .btn-close\"}\n  (Session info: MicrosoftEdge=143.0.3650.139)"
+        },
+        {
+          "name": "Modal closes on outside click",
+          "status": "passed"
+        },
+        {
+          "name": "Modal closes on Escape key",
+          "status": "passed"
+        },
+        {
+          "name": "No changes applied on cancel",
+          "status": "passed"
+        },
+        {
+          "name": "Form resets on cancel",
+          "status": "failed",
+          "error": "stale element reference: stale element not found\n  (Session info: MicrosoftEdge=143.0.3650.139)"
+        },
+        {
+          "name": "Alert shown when task not found",
+          "status": "passed"
+        },
+        {
+          "name": "Alert when task deleted before submit",
+          "status": "passed"
+        },
+        {
+          "name": "Handle very long title (255 chars)",
+          "status": "passed"
+        },
+        {
+          "name": "Handle special characters in title",
+          "status": "passed"
+        },
+        {
+          "name": "Handle unicode in title",
+          "status": "passed"
+        },
+        {
+          "name": "Handle minimum date (1970-01-01)",
+          "status": "failed",
+          "error": "Minimum date should be accepted\n\u001b[32mactual\u001b[39m \u001b[31mexpected\u001b[39m\n\n\u001b[39m'\u001b[39m\u001b[32m0\u001b[39m\u001b[39m1\u001b[39m\u001b[31m9\u001b[39m\u001b[31m7\u001b[39m\u001b[39m0\u001b[39m\u001b[32m1\u001b[39m\u001b[39m-\u001b[39m\u001b[39m0\u001b[39m\u001b[32m7\u001b[39m\u001b[31m1\u001b[39m\u001b[39m-\u001b[39m\u001b[31m0\u001b[39m\u001b[39m1\u001b[39m\u001b[32m9\u001b[39m\u001b[39m'\u001b[39m\n"
+        },
+        {
+          "name": "Handle maximum date (2099-12-31)",
+          "status": "failed",
+          "error": "Maximum date should be accepted\n\u001b[32mactual\u001b[39m \u001b[31mexpected\u001b[39m\n\n\u001b[39m'\u001b[39m\u001b[32m9\u001b[39m\u001b[32m1\u001b[39m\u001b[39m2\u001b[39m\u001b[32m3\u001b[39m\u001b[32m1\u001b[39m\u001b[32m-\u001b[39m\u001b[39m0\u001b[39m\u001b[39m9\u001b[39m\u001b[31m9\u001b[39m\u001b[39m-\u001b[39m\u001b[31m1\u001b[39m\u001b[39m2\u001b[39m\u001b[32m0\u001b[39m\u001b[31m-\u001b[39m\u001b[31m3\u001b[39m\u001b[31m1\u001b[39m\u001b[39m'\u001b[39m\n"
+        },
+        {
+          "name": "Handle empty description update",
+          "status": "passed"
+        },
+        {
+          "name": "Handle single character title",
+          "status": "passed"
+        },
+        {
+          "name": "Test all status dropdown options",
+          "status": "passed"
+        },
+        {
+          "name": "Test all priority dropdown options",
+          "status": "passed"
+        },
+        {
+          "name": "Update first task in list",
+          "status": "passed"
+        },
+        {
+          "name": "Update middle task in list",
+          "status": "passed"
+        },
+        {
+          "name": "Preserve other tasks when updating one",
+          "status": "passed"
+        },
+        {
+          "name": "Maintain task count after update",
+          "status": "passed"
+        },
+        {
+          "name": "Preserve task ID after update",
+          "status": "passed"
+        },
+        {
+          "name": "Edit button is visible",
+          "status": "passed"
+        },
+        {
+          "name": "Modal has correct title",
+          "status": "passed"
+        },
+        {
+          "name": "Submit button has correct text",
+          "status": "failed",
+          "error": "Submit button should say Update or Save"
+        },
+        {
+          "name": "Cancel button is present",
+          "status": "failed",
+          "error": "Cancel button should be visible\n\nfalse !== true\n"
+        },
+        {
+          "name": "Required field indicators",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

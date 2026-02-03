@@ -1,5 +1,5 @@
-*.js text eol=crlf
-*.json text eol=crlf
+*.js text eol=lf
+*.json text eol=lf
 *.png binary
 *.jpg binary
 
