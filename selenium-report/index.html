@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selenium Legacy Browser Test Report</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: #333; margin-bottom: 10px; }
+        .timestamp { color: #666; margin-bottom: 20px; }
+        .total-summary { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .total-summary h2 { margin-bottom: 10px; }
+        .total-summary .passed { color: #22c55e; font-size: 24px; font-weight: bold; }
+        .total-summary .failed { color: #ef4444; font-size: 24px; font-weight: bold; }
+        .browser-section { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .browser-section h2 { color: #333; margin-bottom: 10px; text-transform: uppercase; }
+        .browser-section.error { border-left: 4px solid #ef4444; }
+        .error-msg { color: #ef4444; }
+        .summary { color: #666; margin-bottom: 15px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f9f9f9; font-weight: 600; }
+        tr.pass td.status { color: #22c55e; font-weight: bold; }
+        tr.fail td.status { color: #ef4444; font-weight: bold; }
+        tr.fail { background: #fef2f2; }
+        .error-detail { color: #ef4444; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selenium Legacy Browser Test Report</h1>
+        <p class="timestamp">Generated: 2026-01-11T16:56:13.684Z</p>
+        
+        <div class="total-summary">
+            <h2>Total Results</h2>
+            <p><span class="passed">34 PASSED</span> | <span class="failed">52 FAILED</span></p>
+        </div>
+        
+        
+            <div class="browser-section">
+                <h2>ie</h2>
+                <p class="summary">0 passed, 43 failed</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Test Name</th>
+                            <th>Status</th>
+                            <th>Error</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    <tr class="fail">
+                        <td>Edit modal opens on button click</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10016ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Fields are pre-filled with task data</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10267ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Pre-fill with empty description</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10378ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Store task ID in modal dataset</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10040ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update title successfully</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10236ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update description successfully</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10305ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update status successfully</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10216ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update priority successfully</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10280ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update due date successfully</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10263ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update multiple fields at once</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10283ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal closes after successful update</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10158ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Refresh task list after update</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10091ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert shown on empty title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10238ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert shown on empty due date</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10247ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>No database update on validation fail</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10084ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert shown on whitespace-only title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10394ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal closes on cancel button</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10114ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal closes on close (X) button</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10213ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal closes on outside click</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10209ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal closes on Escape key</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10345ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>No changes applied on cancel</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10212ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Form resets on cancel</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10256ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert shown when task not found</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10358ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert when task deleted before submit</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10015ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle very long title (255 chars)</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10261ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle special characters in title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10093ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle unicode in title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10026ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle minimum date (1970-01-01)</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10031ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle maximum date (2099-12-31)</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10203ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle empty description update</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10348ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle single character title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10127ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Test all status dropdown options</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10054ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Test all priority dropdown options</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10387ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update first task in list</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10031ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update middle task in list</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10176ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Preserve other tasks when updating one</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10047ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Maintain task count after update</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10138ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Preserve task ID after update</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10124ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Edit button is visible</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10159ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal has correct title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10062ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Submit button has correct text</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10249ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Cancel button is present</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10184ms</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Required field indicators</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Waiting for element to be located By(css selector, .task-card)
+Wait timed out after 10116ms</small></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="browser-section">
+                <h2>edge-legacy</h2>
+                <p class="summary">34 passed, 9 failed</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Test Name</th>
+                            <th>Status</th>
+                            <th>Error</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    <tr class="pass">
+                        <td>Edit modal opens on button click</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Fields are pre-filled with task data</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Pre-fill with empty description</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Store task ID in modal dataset</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update title successfully</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update description successfully</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update status successfully</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update priority successfully</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Update due date successfully</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Due date should be updated
+[32mactual[39m [31mexpected[39m
+
+[39m'[39m[32m6[39m[32m1[39m[39m2[39m[32m3[39m[32m1[39m[32m-[39m[39m0[39m[39m2[39m[31m6[39m[39m-[39m[31m1[39m[39m2[39m[32m0[39m[31m-[39m[31m3[39m[31m1[39m[39m'[39m
+</small></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update multiple fields at once</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Modal closes after successful update</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Refresh task list after update</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert shown on empty title</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Alert should be displayed for empty title</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Alert shown on empty due date</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Alert should be displayed for empty due date</small></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>No database update on validation fail</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Alert shown on whitespace-only title</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Modal closes on cancel button</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Modal closes on close (X) button</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">no such element: Unable to locate element: {"method":"css selector","selector":"#updateTaskModal .btn-close"}
+  (Session info: MicrosoftEdge=143.0.3650.139)</small></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Modal closes on outside click</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Modal closes on Escape key</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>No changes applied on cancel</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Form resets on cancel</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">stale element reference: stale element not found
+  (Session info: MicrosoftEdge=143.0.3650.139)</small></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Alert shown when task not found</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Alert when task deleted before submit</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Handle very long title (255 chars)</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Handle special characters in title</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Handle unicode in title</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle minimum date (1970-01-01)</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Minimum date should be accepted
+[32mactual[39m [31mexpected[39m
+
+[39m'[39m[32m0[39m[39m1[39m[31m9[39m[31m7[39m[39m0[39m[32m1[39m[39m-[39m[39m0[39m[32m7[39m[31m1[39m[39m-[39m[31m0[39m[39m1[39m[32m9[39m[39m'[39m
+</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Handle maximum date (2099-12-31)</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Maximum date should be accepted
+[32mactual[39m [31mexpected[39m
+
+[39m'[39m[32m9[39m[32m1[39m[39m2[39m[32m3[39m[32m1[39m[32m-[39m[39m0[39m[39m9[39m[31m9[39m[39m-[39m[31m1[39m[39m2[39m[32m0[39m[31m-[39m[31m3[39m[31m1[39m[39m'[39m
+</small></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Handle empty description update</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Handle single character title</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Test all status dropdown options</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Test all priority dropdown options</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update first task in list</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Update middle task in list</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Preserve other tasks when updating one</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Maintain task count after update</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Preserve task ID after update</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Edit button is visible</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Modal has correct title</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Submit button has correct text</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Submit button should say Update or Save</small></td>
+                    </tr>
+                    <tr class="fail">
+                        <td>Cancel button is present</td>
+                        <td class="status">FAILED</td>
+                        <td><br><small class="error-detail">Cancel button should be visible
+
+false !== true
+</small></td>
+                    </tr>
+                    <tr class="pass">
+                        <td>Required field indicators</td>
+                        <td class="status">PASSED</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</body>
+</html>
