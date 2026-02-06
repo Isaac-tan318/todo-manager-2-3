@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: todo-manager
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/isaac-tan318/todo-manager-2-3.git  # <--- UPDATE THIS
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default  # <--- Where to deploy the app in Minikube
+  syncPolicy:
+    automated:
+      prune: true    # Deletes resources if you delete them from Git
+      selfHeal: true # Reverts manual changes made via kubectl
