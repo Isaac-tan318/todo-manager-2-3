@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-manager-deploy  # Name of the deployment
+spec:
+  replicas: 2 # specifies how many identical replicas (pods) of the application should be maintained, in this case, 2, which means Kubernetes will ensure that two pods running the specified container are always available
+  selector:
+    matchLabels:
+      app: todo-manager  # Selector to match pods managed by this deployment
+  template:
+    metadata:
+      labels:
+        app: todo-manager  # Labels applied to pods created by this deployment
+    spec:
+      containers:
+        - name: todo-manager  # Name of the container
+          image: todo-manager  # Docker image to use for the container
+          imagePullPolicy: IfNotPresent   # Do not pull from Docker Hub
+          ports:
+            - containerPort: 5050  # Port that the container exposes
