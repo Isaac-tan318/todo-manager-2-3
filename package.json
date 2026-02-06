@@ -2,6 +2,19 @@
   "name": "todo-manager",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaac-tan318/todo-manager-2-3.git"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  },
   "scripts": {
     "test": "jest",
     "test-frontend": "npx playwright test",
