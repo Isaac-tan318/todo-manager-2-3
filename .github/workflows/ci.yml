@@ -18,6 +18,12 @@ jobs:
           npm install
           npm test
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright Tests
+        run: npm run test-frontend
+
       - name: Publish Playwright Report
         uses: daun/playwright-report-summary@v1
         if: always() # Run even if tests fail
