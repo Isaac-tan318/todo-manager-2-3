@@ -12,11 +12,11 @@ spec:
       labels:
         app: todo-manager
       annotations:
-        restartedAt: '35'
+        restartedAt: '36'
     spec:
       containers:
         - name: todo-manager  # Name of the container
-          image: todo-manager:35
+          image: todo-manager:36
           imagePullPolicy: IfNotPresent   # Do not pull from Docker Hub
           ports:
             - containerPort: 5050  # Port that the container exposes
