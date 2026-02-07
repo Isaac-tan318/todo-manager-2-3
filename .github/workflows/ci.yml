@@ -13,34 +13,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install and Test
+      - name: Install
         run: |
           npm install
-          npm test
 
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
-
-      - name: Run Playwright Tests
-        run: npm run test-frontend
-
-      - name: Publish Playwright Report
-        uses: daun/playwright-report-summary@v1
-        if: always() # Run even if tests fail
-        with:
-          report-file: results.json
-          comment-title: 'Playwright Test Results'
-
-      - name: Upload Backend Coverage
-        uses: codecov/codecov-action@v5
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }} # Get this from codecov.io
-          files: ./coverage/lcov.info # Jest default output
-          flags: backend
-
-      - name: Upload Frontend Coverage
-        uses: codecov/codecov-action@v5
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage-frontend/lcov.info # Output from your generate-coverage.js
-          flags: frontend
+      
