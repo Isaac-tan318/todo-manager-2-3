@@ -12,7 +12,7 @@ spec:
       labels:
         app: todo-manager
       annotations:
-        restartedAt: '26'
+        restartedAt: '27'
     spec:
       containers:
         - name: todo-manager  # Name of the container
