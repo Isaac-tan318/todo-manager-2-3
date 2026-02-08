@@ -12,11 +12,11 @@ spec:
       labels:
         app: todo-manager
       annotations:
-        restartedAt: '52'
+        restartedAt: '53'
     spec:
       containers:
         - name: todo-manager  # Name of the container
-          image: todomanagerregistry.azurecr.io/todo-manager:52
+          image: todomanagerregistry.azurecr.io/todo-manager:53
           imagePullPolicy: IfNotPresent   # Do not pull from Docker Hub
           ports:
             - containerPort: 5050  # Port that the container exposes
