@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: todo-manager
-        image: todomanagerregistry.azurecr.io/todo-manager:BUILD_NUMBER
+        image: todomanagerregistry.azurecr.io/todo-manager:local
         imagePullPolicy: Never  # Use local image only
         ports:
-        - containerPort: 8080
+        - containerPort: 5050

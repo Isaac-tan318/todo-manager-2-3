@@ -9,7 +9,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 # Expose the port your app runs on
-EXPOSE 3000
+EXPOSE 5050
 
 # Define the command to run your app
 CMD [ "node", "index.js" ]
