@@ -1,6 +1,9 @@
 # JSON data files
 utils/tasks.json
 
+# Ignore local Kubernetes deployment files
+k8s/deployment-local.yaml
+
 # Ignore images in uploads
 uploads/*.png
 uploads/*.jpg

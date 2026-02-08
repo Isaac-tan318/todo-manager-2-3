@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-manager
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo-manager
+  template:
+    metadata:
+      labels:
+        app: todo-manager
+    spec:
+      containers:
+      - name: todo-manager
+        image: todomanagerregistry.azurecr.io/todo-manager:BUILD_NUMBER
+        imagePullPolicy: Never  # Use local image only
+        ports:
+        - containerPort: 8080
