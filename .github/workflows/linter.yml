@@ -20,3 +20,5 @@ jobs:
           VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_CSS: true
           VALIDATE_JSON: true
+          VALIDATE_JAVASCRIPT_ESLINT: true
+          VALIDATE_DOCKERFILE_HADOLINT: true
