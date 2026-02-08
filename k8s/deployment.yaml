@@ -16,8 +16,21 @@ spec:
     spec:
       containers:
         - name: todo-manager  # Name of the container
-          image: todo-manager:41
+          image: todomanagerregistry.azurecr.io/todo-manager:41
           imagePullPolicy: IfNotPresent   # Do not pull from Docker Hub
           ports:
             - containerPort: 5050  # Port that the container exposes
           
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-manager-service  # The name of the "Door"
+spec:
+  type: LoadBalancer          # 👈 Asking Azure for a Public IP
+  selector:
+    app: todo-manager         # Must match the label in your Deployment
+  ports:
+    - protocol: TCP
+      port: 80                # The world connects to Port 80 (HTTP)
+      targetPort: 5050        # We forward it to your Container's Port 5050
